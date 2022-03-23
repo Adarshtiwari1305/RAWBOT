@@ -4,7 +4,7 @@ import sys
 import json
 import asyncio
 import time
-import victo
+import victor
 import telegram.ext as tg
 from inspect import getfullargspec
 from aiohttp import ClientSession
