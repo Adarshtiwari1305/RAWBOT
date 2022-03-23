@@ -1,5 +1,5 @@
-from TGN.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from TGN import DRAGONS
+from Victor.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from Victor import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 
