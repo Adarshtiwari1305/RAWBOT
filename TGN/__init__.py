@@ -100,8 +100,8 @@ if ENV:
     WALL_API = os.environ.get("WALL_API", None)
     ERROR_LOG = os.environ.get("ERROR_LOG", None)
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", None)
-    SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", None)
-    SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None)
+   Hitler_fed = os.environ.get("Hitler_fed", None)
+    Hitler_fed_API = os.environ.get("Hitler_fed_API", None)
     LASTFM_API_KEY = os.environ.get("LASTFM_API_KEY", None)
     CF_API_KEY = os.environ.get("CF_API_KEY", None)
     WELCOME_DELAY_KICK_SEC = os.environ.get("WELCOME_DELAY_KICL_SEC", None)
@@ -117,7 +117,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from TGN.config import Development as Config
+    from Victor.config import Development as Config
 
     TOKEN = Config.TOKEN
 
